@@ -1,7 +1,3 @@
-1. Create a file called list and save it
-
-2. vi list
-
 John Daggett, 341 King Road, Plyumouth MA
 Alice Ford, 22 East Broadway, Richmond VA
 Orville Thomas, 11345 Oak Bridge Road, Tulsa OK
@@ -10,5 +6,3 @@ Eric Adams, 20 Post Road, Sudbury MA
 Hubert Sims, 328A Brrok Road, Roanoke VA
 Amy Wilde, 334 Bayshore Pkwy, Mountain View CA
 Sal Carpenter, 73 6th Street, Boston MA
-
-3. esc + :wq! / esc +:x
