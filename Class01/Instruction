@@ -1,0 +1,31 @@
+++++++++SED++++++++
+
+
+1. sed 's/<pattern>/<pattern2>/g' file
+2. sed 's/ MA/, Massachusetts/' file
+
+3. Separate multiple instruction with semicolon
+
+sed 's/pattern1/pattern2/; s/Pattern3/Pattern4/' file
+
+4 Preceede each instruction by -e
+
+sed 's/pattern1/pattern2/' -e 's/Pattern3/Pattern4/' file
+
+5 Multiple Line entry
+
+sed '
+> s/ pattern1/pattern2/
+> s/ pattern3/pattern4 ' file
+
+
+6 Using Script file
+
+vi scriptfile
+
+s /pattern1/pattern2/
+s /pattern3/pattern4/
+
+wq!
+
+Note: quote is not required in script file
